@@ -1,0 +1,9 @@
+block resultGrid
+	table#result-grid.grid(data-url="#{query}",row-id="cdLinkId" ,sort-name="lastModifyTime", sort-order="desc",
+				checkbox="true", resizable="false", grid-height="auto")
+		thead
+			tr
+				th(name="status",data-render="cmdChange",width="30",align="right") &nbsp;
+				th(name="cdLinkName",sortable="true",width="150") 系统名称
+				th(name="cdLinkId", hidden, sortable="true", width="50") 序号
+				th(name="url", width="150") 地址

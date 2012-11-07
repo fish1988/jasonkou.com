@@ -1,0 +1,13 @@
+doctype 5
+html
+	include includes/head
+	link(rel='stylesheet', href='css/login.css')
+	body
+		.container
+			form.form-signin(action='/login/user',method='post')
+				h2.form-signin-heading 请登录
+				input#userName(name='userName',type='text',class='input-block-level',placeholder='用户名')
+				input#pwd(type='password',class='input-block-level',placeholder='密  码')
+				label.checkbox  Remember me
+					input(type='checkbox',value='remember-me')
+				button(class='btn btn-large btn-primary',type='submit') 登   录

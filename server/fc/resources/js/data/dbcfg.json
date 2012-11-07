@@ -1,0 +1,19 @@
+{
+	success : true,
+	total : 1,
+	items : [{
+				f_conn_name : 'f_conn_name',
+				f_ip : 'f_ip',
+				f_port : 1,
+				f_db_name : 'f_db_name',
+				f_db_type : 1,
+				f_user : 'f_user',
+				f_password : 'f_password',
+				f_charset : 'f_charset',
+				f_create_time : 'f_create_time',
+				f_create_user : 'f_create_user',
+				f_modify_time : 'f_modify_time',
+				f_modify_user : 'f_modify_user',
+				f_status : 1
+			}]
+}

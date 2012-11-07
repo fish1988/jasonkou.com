@@ -1,0 +1,51 @@
+extends dict
+block searchItems
+	.control-group
+		label.control-label	方法名称
+		.controls
+			input#methodName.j-search-item(title='方法名称',style='width: 92%;')
+	.control-group
+		label.control-label	描述
+		.controls
+			input#desc.j-search-item(title='描述',style='width: 92%;')
+block leftTitle
+	a(href="#") 数据渲染
+
+block resultGrid
+	table#result-grid.grid(data-url="#{query}",row-id="renderId" ,sort-name="lastModifyTime", sort-order="desc",
+				checkbox="true", resizable="false", grid-height="auto")
+		thead
+			tr
+				th(name="status",data-render="cmdChange",width="30",align="right") &nbsp;
+				th(name="renderName",sortable="true",width="150") 方法名称
+				th(name="renderId", hidden, sortable="true", width="50") 序号
+				th(name="paramCount",width="150") 参数个数
+				include ../includes/th.jade
+				
+block editModalTitle
+	h3 增加方法
+	
+block editModalItems
+	.control-group.hidden
+		input#renderId(type="hidden",name="renderId")
+	.control-group
+		label.control-label 方法名称
+		.controls
+			input#renderName(type="text",class="input-xlarge",name="renderName",maxlength="40",required)
+	.control-group
+		label.control-label 参数个数
+		.controls
+			.input-append
+				input#paramCount(type="text",class="positive-float span2 j-tooltip-r input-xlarge",value="1",
+								name="paramCount",title="只能输入数字哦",required,max="100")
+				span.add-on	个
+	.control-group
+		label.control-label 描述
+		.controls		
+			textarea#desc.input-xlarge(name="desc",rows="4",maxlength="200")
+	.control-group
+		label.control-label 是否有效
+		.controls	
+			label.checkbox.inline
+				input#status(type="checkbox",name="status",value="1",checked)
+				是

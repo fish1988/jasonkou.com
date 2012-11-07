@@ -1,0 +1,20 @@
+{
+	success : true,
+	total : 1,
+	items : [{
+				f_sync_cfgname : 'f_sync_cfgname',
+				f_script_name : 'f_script_name',
+				f_src_filepath : 'f_src_filepath',
+				f_src_ip : 'f_src_ip',
+				f_local_path : 'f_local_path',
+				f_push_pul : 1,
+				f_sync_type : 1,
+				f_zip_type : 1,
+				f_save_cycle : 1,
+				f_create_time : 'f_create_time',
+				f_create_user : 'f_create_user',
+				f_modify_time : 'f_modify_time',
+				f_modify_user : 'f_modify_user',
+				f_status : 1
+			}]
+}

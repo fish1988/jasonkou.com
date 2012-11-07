@@ -1,0 +1,14 @@
+doctype 5
+html
+	include includes/head
+	body
+		include includes/navbar
+		include includes/search
+		include includes/leftnav
+		.search-result.span10
+			include includes/gridbar
+			include includes/grid
+		include includes/editmodal	
+		include includes/js
+		script
+			$('li#dict').addClass('active')

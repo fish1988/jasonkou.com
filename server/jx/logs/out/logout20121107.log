@@ -1,0 +1,158 @@
+[2012-11-07 19:56:25.216] [DEBUG] jx - { appName: 'jx',
+  port: '8888',
+  basePath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\',
+  appPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\',
+  index: 'index',
+  logLevel: 'DEBUG',
+  logPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\logs\\',
+  logOutPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\logs\\out\\',
+  logErrPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\logs\\err\\',
+  modelPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\model\\',
+  ctrlPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\controller\\',
+  viewPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\view\\',
+  tplPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\view\\tpl\\',
+  mvcTplPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\util\\build-mvc\\JxTpl\\app\\',
+  downloadPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\download\\' }
+[2012-11-07 19:56:25.227] [INFO] jx - server is listening @ localhost:8888
+[2012-11-07 19:56:35.050] [DEBUG] jx - 127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:35.211] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:35.213] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap-responsive.min.css HTTP/1.1" 304 - "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:35.268] [DEBUG] jx - 127.0.0.1 - - "GET /font-awesome/css/font-awesome.css HTTP/1.1" 304 - "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:35.270] [DEBUG] jx - 127.0.0.1 - - "GET /css/jk.css HTTP/1.1" 304 - "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:35.272] [DEBUG] jx - 127.0.0.1 - - "GET /css/login.css HTTP/1.1" 304 - "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.026] [DEBUG] jx - ctrlName: login
+[2012-11-07 19:56:39.026] [DEBUG] jx - methodName: user
+[2012-11-07 19:56:39.029] [DEBUG] jx - 11
+[2012-11-07 19:56:39.033] [DEBUG] jx - 127.0.0.1 - - "POST /login/user HTTP/1.1" 302 64 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.060] [DEBUG] jx - ctrlName: mvc
+[2012-11-07 19:56:39.061] [DEBUG] jx - methodName: index
+[2012-11-07 19:56:39.120] [DEBUG] jx - 127.0.0.1 - - "GET /mvc HTTP/1.1" 200 4915 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.169] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.172] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap-responsive.min.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.173] [DEBUG] jx - 127.0.0.1 - - "GET /font-awesome/css/font-awesome.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.239] [DEBUG] jx - 127.0.0.1 - - "GET /css/jk.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.247] [DEBUG] jx - 127.0.0.1 - - "GET /js/lib/xdate.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.248] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.313] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.json.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.314] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.cookie.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.318] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.mask.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.325] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.form.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.326] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.validate.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.328] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.validate.jason.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.345] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.flexigrid.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.353] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.355] [DEBUG] jx - 127.0.0.1 - - "GET /js/bootstrap/bootstrap-datepicker.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.356] [DEBUG] jx - 127.0.0.1 - - "GET /js/bootstrap/bootstrap-inputmask.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.358] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-label.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.360] [DEBUG] jx - 127.0.0.1 - - "GET /js/bootstrap/bootstrap-tour.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.436] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-loading.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.442] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-datepicker.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.444] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-radio.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.445] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-search.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.447] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-msg.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.450] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-base.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.480] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-checkbox.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.483] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-store.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.492] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-renderer.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.495] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-alert.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.497] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-popover.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.500] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-data.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.506] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-nav.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.509] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-dom.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.521] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-button.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.525] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-combobox.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.527] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-img-preview.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.529] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-inputmask.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.533] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-grid.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.534] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-modal.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.543] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-form.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.544] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-tooltip.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.546] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-timer.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:39.548] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-const.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:50.560] [DEBUG] jx - ctrlName: mvc
+[2012-11-07 19:56:50.562] [DEBUG] jx - methodName: build
+[2012-11-07 19:56:50.566] [DEBUG] jx - mvc.build
+[2012-11-07 19:56:50.674] [DEBUG] jx - 127.0.0.1 - - "POST /mvc/build HTTP/1.1" 200 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:50.690] [DEBUG] jx - 127.0.0.1 - - "GET /download/1352289410585.zip HTTP/1.1" 404 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:54.605] [DEBUG] jx - 127.0.0.1 - - "GET /download/1352289410585.zip HTTP/1.1" 404 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:54.643] [DEBUG] jx - 127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 200 1150 "" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:55.608] [DEBUG] jx - 127.0.0.1 - - "GET /download/1352289410585.zip HTTP/1.1" 404 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:56:55.834] [DEBUG] jx - 127.0.0.1 - - "GET /download/1352289410585.zip HTTP/1.1" 404 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:33.341] [DEBUG] jx - { appName: 'jx',
+  port: '8888',
+  basePath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\',
+  appPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\',
+  index: 'index',
+  logLevel: 'DEBUG',
+  logPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\logs\\',
+  logOutPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\logs\\out\\',
+  logErrPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\logs\\err\\',
+  modelPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\model\\',
+  ctrlPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\controller\\',
+  viewPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\view\\',
+  tplPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\view\\tpl\\',
+  mvcTplPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\app\\util\\build-mvc\\JxTpl\\app\\',
+  downloadPath: 'F:\\Users\\Administrator\\Desktop\\server\\jx\\download\\' }
+[2012-11-07 19:57:33.345] [INFO] jx - server is listening @ localhost:8888
+[2012-11-07 19:57:35.996] [DEBUG] jx - 127.0.0.1 - - "GET /download/1352289410585.zip HTTP/1.1" 200 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.775] [DEBUG] jx - 127.0.0.1 - - "GET /mvc HTTP/1.1" 302 68 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.853] [DEBUG] jx - 127.0.0.1 - - "GET /login HTTP/1.1" 200 1406 "http://localhost:8888/" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.876] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.879] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap-responsive.min.css HTTP/1.1" 304 - "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.884] [DEBUG] jx - 127.0.0.1 - - "GET /font-awesome/css/font-awesome.css HTTP/1.1" 304 - "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.903] [DEBUG] jx - 127.0.0.1 - - "GET /css/jk.css HTTP/1.1" 304 - "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:42.910] [DEBUG] jx - 127.0.0.1 - - "GET /css/login.css HTTP/1.1" 304 - "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.034] [DEBUG] jx - ctrlName: login
+[2012-11-07 19:57:46.041] [DEBUG] jx - methodName: user
+[2012-11-07 19:57:46.047] [DEBUG] jx - 11
+[2012-11-07 19:57:46.055] [DEBUG] jx - 127.0.0.1 - - "POST /login/user HTTP/1.1" 302 64 "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.063] [DEBUG] jx - ctrlName: mvc
+[2012-11-07 19:57:46.065] [DEBUG] jx - methodName: index
+[2012-11-07 19:57:46.119] [DEBUG] jx - 127.0.0.1 - - "GET /mvc HTTP/1.1" 200 4915 "http://localhost:8888/login" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.170] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.174] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/css/bootstrap-responsive.min.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.175] [DEBUG] jx - 127.0.0.1 - - "GET /font-awesome/css/font-awesome.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.188] [DEBUG] jx - 127.0.0.1 - - "GET /css/jk.css HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.191] [DEBUG] jx - 127.0.0.1 - - "GET /js/lib/xdate.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.192] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.min.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.199] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.json.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.204] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.cookie.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.206] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.mask.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.208] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.form.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.210] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.validate.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.211] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.validate.jason.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.214] [DEBUG] jx - 127.0.0.1 - - "GET /jquery/jquery.flexigrid.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.215] [DEBUG] jx - 127.0.0.1 - - "GET /bootstrap/js/bootstrap.min.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.243] [DEBUG] jx - 127.0.0.1 - - "GET /js/bootstrap/bootstrap-datepicker.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.251] [DEBUG] jx - 127.0.0.1 - - "GET /js/bootstrap/bootstrap-inputmask.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.254] [DEBUG] jx - 127.0.0.1 - - "GET /js/bootstrap/bootstrap-tour.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.256] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-label.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.303] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-loading.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.306] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-datepicker.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.375] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-radio.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.385] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-search.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.386] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-msg.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.388] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-base.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.389] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-checkbox.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.396] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-store.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.409] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-renderer.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.412] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-alert.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.418] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-popover.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.419] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-data.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.420] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-nav.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.423] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-dom.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.433] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-button.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.437] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-combobox.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.439] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-img-preview.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.441] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-inputmask.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.449] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-grid.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.455] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-modal.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.457] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-form.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.459] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-tooltip.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.461] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-timer.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:46.462] [DEBUG] jx - 127.0.0.1 - - "GET /js/jason-const.js HTTP/1.1" 304 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:55.435] [DEBUG] jx - ctrlName: mvc
+[2012-11-07 19:57:55.435] [DEBUG] jx - methodName: build
+[2012-11-07 19:57:55.436] [DEBUG] jx - mvc.build
+[2012-11-07 19:57:55.487] [DEBUG] jx - 127.0.0.1 - - "POST /mvc/build HTTP/1.1" 200 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"
+[2012-11-07 19:57:55.542] [DEBUG] jx - 127.0.0.1 - - "GET /download/1352289475449.zip HTTP/1.1" 200 - "http://localhost:8888/mvc" "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4"

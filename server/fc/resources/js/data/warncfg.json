@@ -1,0 +1,19 @@
+{
+	success : true,
+	total : 1,
+	items : [{
+				f_warncfg_name : 'f_warncfg_name',
+				f_serv_type : 'f_serv_type',
+				f_warn_type : 'f_warn_type',
+				f_receiver : 'f_receiver',
+				f_mail : 1,
+				f_rtx : 1,
+				f_sms : 1,
+				f_delay_strategy : 1,
+				f_create_time : 'f_create_time',
+				f_create_user : 'f_create_user',
+				f_modify_time : 'f_modify_time',
+				f_modify_user : 'f_modify_user',
+				f_status : 1
+			}]
+}

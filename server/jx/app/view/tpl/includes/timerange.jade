@@ -1,0 +1,24 @@
+block timeRangeTitle
+	label.left-nav-label 创建时间
+
+ul(data-type='dateRange',class='nav nav-list nav-left-choose active-switch')
+	li.selected(data-id='',show-hide='daterange-form')
+		a(href='#') 时间不限
+	li.hide-switch(data-id='week',show-hide='daterange-form')
+		a(href='#') 最近一周
+	li.hide-switch(data-id='month',show-hide='daterange-form')
+		a(href='#') 最近一月
+	li.show-hide-switch(data-id='custom',show-hide='daterange-form')
+		a(href='#') 自定时间范围...
+		.daterange-form.hidden
+			label.control-label(style='display: inline;') 从：
+			input#startTime(data-mask='9999-99-99',
+			class='const-yearBeforeDate date-picker-h input-small')
+			
+			label.control-label(style='display: inline;') 到：
+			input#endTime(data-mask='9999-99-99',
+			class='const-nowDate date-picker-h input-small')
+			
+			p.help-block 例:2012-09-12
+			button.date-query.btn(type='button') 搜 索
+	li.divider

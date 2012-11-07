@@ -1,0 +1,19 @@
+{
+	success : true,
+	total : 1,
+	items : [{
+				f_backup_cfgname : 'f_backup_cfgname',
+				f_script_name : 'f_script_name',
+				f_dst_filepath : 'f_dst_filepath',
+				f_dst_ip : 'f_dst_ip',
+				f_local_path : 'f_local_path',
+				f_sync_type : 1,
+				f_zip_type : 1,
+				f_save_cycle : 1,
+				f_create_time : 'f_create_time',
+				f_create_user : 'f_create_user',
+				f_modify_time : 'f_modify_time',
+				f_modify_user : 'f_modify_user',
+				f_status : 1
+			}]
+}

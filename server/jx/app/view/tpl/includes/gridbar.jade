@@ -1,0 +1,23 @@
+.btn-toolbar.grid-toolbar.page-toolbar(grid-target='#result-grid')
+	.btn-group
+		a(title='新建',data-toggle='modal',href='#edit-modal',class='btn toolbar-icon-btn j-tooltip-b')
+			i.icon-plus
+	.btn-group
+		block gridBarEdit
+			a(title='编辑',modal-title='编辑',href='#edit-modal',class='grid-one btn toolbar-icon-btn j-tooltip-b')
+				i.icon-edit
+		block gridBarDelete
+			a(title='无效',msg='确认删除{0}项?',url='#{invalid}',class='grid-more btn toolbar-icon-btn j-tooltip-b')
+				i.icon-trash
+	block gridBarAddtion
+	
+	.btn-group
+		a(title='刷新',class='grid-refresh btn toolbar-icon-btn j-tooltip-b')
+			i.icon-repeat
+						
+	.btn-group.grid-result-pager
+		a(title='上一页', class='prev-page btn toolbar-icon-btn j-tooltip-b')
+			i.icon-chevron-left
+		a(title='下一页', class='next-page btn toolbar-icon-btn j-tooltip-b')
+			i.icon-chevron-right
+	.grid-result-stat

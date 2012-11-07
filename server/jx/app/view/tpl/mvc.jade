@@ -1,0 +1,25 @@
+doctype 5
+html
+	include includes/head
+	body
+		include includes/navbar
+		header.jumbotron.subhead
+			.container
+				h1	Getting started
+				.lead ExtJs MVC 模板生成工具
+				form#mvc-form.form-download.highlight(action="#{build}")
+					.control-group
+						label.control-label Model名称
+						.controls		
+							input#modelName.input-xlarge(type="text",name="modelName",maxlength="40",required)
+					.control-group
+						label.control-label 字段描述
+						.controls		
+							textarea#fields.fields.input-xlarge(name="fields",rows="4",maxlength="200",style="width:540px;",required)
+							p.help-block 多个字段请以;分隔
+					.control-group
+						button.btn.btn-primary(type="submit") 生成模板
+						span#result
+		include includes/js
+		script
+			$('li#mvc').addClass('active')

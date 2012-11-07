@@ -1,0 +1,35 @@
+.navbar.navbar-inverse.global-nav
+	.navbar-inner
+		.container-fluid
+			a(class='btn btn-navbar', data-toggle='collapse', data-target='.nav-collapse') 
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			.btn-group.pull-right
+				a(title='当前用户', class='btn dropdown-toggle', data-toggle='dropdown', href='#')
+					img(class='const-avatar',height='20',width='20px',src='//dayu.oa.com/avatars/avatar.gif')
+					span(class='const-userName', style='width: 40px;padding-right:5px;')
+					span.caret
+				ul.dropdown-menu
+					li
+						a(href='/logout') 注销登录
+			.nav-collapse
+				ul.nav#navbar
+					li#index
+						a(href='/index',style='padding-left: 5px;') 首页
+					li#mvc
+						a(href='/mvc',style='padding-left: 5px;') MVC模板生成
+					li#grid
+						a(href='#',style='padding-left: 5px;') Grid生成
+					li#form
+						a(href='#',style='padding-left: 5px;') Form生成
+					li#layout
+						a(href='#',style='padding-left: 5px;') Layout生成
+					li#dict.dropdown
+						a(href='#',class='dropdown-toggle',data-toggle='dropdown') 字典管理
+							b.caret
+						ul.dropdown-menu
+							li
+								a(href='/render') 数据渲染
+							li
+								a(href='#') 数据校验

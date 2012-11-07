@@ -1,0 +1,16 @@
+.well.form-search.main-search
+	#searchLogo(style='float: left; width: 120px;')
+		img.search-logo(src='img/logo.png',width='120',height='45',style='margin-top: -10px;') 
+	input#query-txt(title='请输入名称、描述...',target-form='#search-form',class='space-search j-tooltip-b search input-medium search-query valid no-radius pull-left')
+	.query-detail.hidden.clickOutHide
+		form#search-form.form-query.highlight(grid-reload='#result-grid',style='margin-bottom: 5px;')
+			a.close.show-hide-switch(show-hide='query-detail') ×
+			fieldset
+				block searchItems
+			.simple-form-actions
+				button(target-form='#search-form',title='点击查询',class='submit-form btn btn-primary btn-search pull-left',style='margin-left: 0;')
+					span.icon-white.icon-search
+				a(target-form='#search-form',style='margin-top: 8px;',class='clear-form pull-right',href='#') 清空表单
+	.query-btn
+		button(target-form='#search-form',title='点击查询',class='submit-form btn btn-primary btn-search')
+			span.icon-white.icon-search
